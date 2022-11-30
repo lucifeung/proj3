@@ -1,0 +1,28 @@
+{
+  "Thumbnail": null,
+  "Light0": {
+    "Red": 255,
+    "Blue": 0,
+    "Green": 148,
+    "Intensity": 200.0
+  },
+  "Light1": {
+    "Red": 130,
+    "Blue": 255,
+    "Green": 192,
+    "Intensity": 170.0
+  },
+  "Light2": {
+    "Red": 0,
+    "Blue": 0,
+    "Green": 0,
+    "Intensity": 0.0
+  },
+  "Environment": {
+    "Red": 135,
+    "Blue": 255,
+    "Green": 117,
+    "Intensity": 64.0
+  },
+  "LightRotation": 233.025253
+}
