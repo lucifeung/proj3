@@ -43,20 +43,22 @@ function init() {
 
     // Define basic scene parameters
     scene = new THREE.Scene();
-    scene.background = new THREE.Color(0xffeef0);
-    scene.fog = new THREE.Fog(0xffeef0, 0, 750);
+    scene.background = new THREE.Color(0xffe0ee);
+    scene.fog = new THREE.Fog(0xffeef0, 0, 500);
 
     // Define scene lighting
-    const light1 = new THREE.HemisphereLight(0xeeeeff, 0x777788, 1);
-    light1.position.set(0.5, 1, 0.75);
+    const light1 = new THREE.HemisphereLight(0x767df4, 0xffb461, 1);
+    light1.position.x = 100;
+    light1.position.y = 100;
+    light1.position.z = -20;
     scene.add(light1);
-
-
-    const light = new THREE.DirectionalLight(0xcecbfc, 3);
-    light.position.x = 100;
-    light.position.y = 100;
-    light.position.z = -20;
-    scene.add(light);
+    //
+    //
+    // const light = new THREE.DirectionalLight(0xcecbfc, 3);
+    // light.position.x = 100;
+    // light.position.y = 1000;
+    // light.position.z = -20;
+    // scene.add(light);
 
 
 
