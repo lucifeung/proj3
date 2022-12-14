@@ -44,7 +44,7 @@ function init() {
     // Define basic scene parameters
     scene = new THREE.Scene();
     scene.background = new THREE.Color(0xffe0ee);
-    scene.fog = new THREE.Fog(0xffeef0, 0, 500);
+    scene.fog = new THREE.Fog(0xffeef0, 0, 800);
 
     // Define scene lighting
     const light1 = new THREE.HemisphereLight(0x767df4, 0xffb461, 1);
@@ -219,7 +219,7 @@ function init() {
     var mesh;
     // Load preanimated model, add material, and add it to the scene
     const loader = new GLTFLoader().load(
-        "./assets/scene.glb",
+        "./assets/untitled.glb",
         function (gltf) {
             gltf.scene.traverse(function (child) {
                 if (child.isMesh) {
